@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Peter | Portfolio</title>
-    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="style.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,9 +14,12 @@
     <!-- header section -->
      <header>
         <div>
-            <p class="logo">Peter <span>Kioko</span> </p>
+            <a href="#home" class="logo">Peter <span>Kioko</span> </a>
         </div>
-        <nav>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
                 <a href="#home">Home</a>
                 <a href="#education">Education</a>
                 <a href="#services">Services</a>
@@ -25,6 +28,8 @@
         </nav>
      </header>
 
+
+     <!-- HOME PAGE -->
     <section class="home" id="home">
         <!-- home-content-->
     <div class="home-content">
@@ -33,12 +38,12 @@
        <div class="static-text">I'm</div>
        <ul class="dynamic-texts">
         <li><span>Web developer</span></li>
-        <li><span>YOUTUBER</span></li>
+        <li><span>Youtuber</span></li>
         <li><span>Web Designer</span></li>
         <li><span>UI / IX Designer</span></li>
        </ul>
        </div>
-        <p>I've spent years turning complex logic into sleek, high-performance web experiences that live at the intersection of clean code and intuitive design. From architecting scalable backends to crafting pixel-perfect interfaces, I build digital products that aren't just functional—they’re memorable. Whether you're looking for a robust enterprise solution or a creative interactive showcase, I bring the technical depth and curiosity to make it happen.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quas pariatur obcaecati explicabo dicta laudantium maxime reiciendis commodi provident! Nostrum molestiae, maxime itaque ratione sed repellat ipsa beatae cupiditate consectetur?</p>
 
         <!-- social-icons -->
         <div class="social-icons">
@@ -54,16 +59,97 @@
             <a href="#contact" class="btn">Contact</a>
         </div>
 </div>
-        <div class="home img">
+        <div class="home-img">
             <img src="./71022.jpg" alt="me picture">
-        </div>
-        
-        <!-- hero section -->
-         <section class="class">
-<div class="text-container">
-</div>
+        </div>        
          </section>
        
+     <!-- EDUCATION PAGE -->
+<section class="education" id="education">
+    <h2 class="heading">Education</h2>
+
+    <div class="timeline-items">
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+                <div class="timeline">2021</div>
+                <div class="timeline-content">
+                    <h3>HIgh School</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat nisi officiis iste cumque rem pariatur, inventore non explicabo distinctio laboriosam reiciendis amet unde dolores totam itaque alias fuga recusandae nulla!</p>
+                </div>
+            
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+                <div class="timeline">2026</div>
+                <div class="timeline-content">
+                    <h3>University</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum illo deserunt corporis voluptatum alias adipisci sint enim sit reiciendis quibusdam quisquam, dolor temporibus? Qui soluta perferendis dolore obcaecati. Veritatis, ab.</p>
+                </div>
+            
+        </div>
+        
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+                <div class="timeline">2031</div>
+                <div class="timeline-content">
+                    <h3>Internship</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore aut ad maiores, reiciendis officiis commodi doloremque expedita quod dicta eum nobis eveniet quaerat nemo culpa ut earum voluptate, repellendus in? </p>
+                </div>
+            
+        </div>
+        
+        <div class="timeline-item">
+            <div class="timeline-dot"> </div>
+                <div class="timeline">2032</div>
+                <div class="timeline-content">
+                    <h3>Job 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias beatae tempora suscipit fuga, explicabo sapiente ratione tempore omnis sunt nisi similique, numquam iure debitis saepe nemo repellendus quis. Debitis, eum.</p>
+                </div>
+           
+        </div>
+
+    </div>
+</section>
+
+<section class="services" id="services">
+<h2 class="heading">Services</h2>
+
+<div class="services-container">
+    <div class="service-box">
+        <div class="services-info">
+            <h4>UI Design</h4>
+            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet iure repellat mollitia neque illo asperiores iusto tempora temporibus, quod commodi recusandae ad consequatur, rerum perferendis! Iusto, porro eius. Molestiae, labore.</P>
+        </div>
+    </div>
+</div>
+
+<div class="service-box">
+        <div class="services-info">
+            <h4>Frontend Development</h4>
+            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet iure repellat mollitia neque illo asperiores iusto tempora temporibus, quod commodi recusandae ad consequatur, rerum perferendis! Iusto, porro eius. Molestiae, labore.</P>
+        </div>
+    </div>
+
+    <div class="service-box">
+        <div class="services-info">
+            <h4>Backend Development</h4>
+            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet iure repellat mollitia neque illo asperiores iusto tempora temporibus, quod commodi recusandae ad consequatur, rerum perferendis! Iusto, porro eius. Molestiae, labore.</P>
+        </div>
+    </div>
+
+    <div class="service-box">
+        <div class="services-info">
+            <h4>Testing</h4>
+            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet iure repellat mollitia neque illo asperiores iusto tempora temporibus, quod commodi recusandae ad consequatur, rerum perferendis! Iusto, porro eius. Molestiae, labore.</P>
+        </div>
+    </div>
+
+
+
+</section>
+
 
     </main>
     
