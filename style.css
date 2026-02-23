@@ -26,7 +26,7 @@ body{
     /* width: 70px;
     filter: brightness(90%);
     color: aliceblue; */
-    font-size: 50px;
+    font-size: 100px;
     color: var(--main-color);
     font-weight: 800;
     cursor: pointer;
@@ -75,7 +75,7 @@ header{
 }
 
 .navbar a{
-    font-size: 1.2rem;
+    font-size: 1.9rem;
     color: var(--text-color);
     margin-left: 1rem;
     font-weight: 500;
@@ -152,7 +152,7 @@ span{
 }
 
 .home-content p{
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     font-weight: 500;
     line-height: 1.1;
     max-width: 1000px;
@@ -406,6 +406,7 @@ span{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
+    justify-content: center;
     gap: 1.5rem;
   }
 
@@ -628,7 +629,7 @@ footer .copyright{
 
 @media (max-width: 1245px){
     html{
-        font-size: 55%;
+        font-size: 70%;
     }
     .services-container{
         padding-bottom: 5rem;
@@ -640,6 +641,10 @@ footer .copyright{
 @media(max-width:991px){
     header{
         padding: 2rem 3%;
+    }
+    #home{
+        flex-direction: column-reverse;
+        font-size: 190%;
     }
     section{
         padding: 8rem 3% 1rem;
@@ -658,11 +663,27 @@ footer .copyright{
     .timeline-dot{
         left: 0;
     }
+    .timeline-content p{
+        font-size: 1.7rem;
+    }
     .services{
         padding-bottom: 7rem;
     }
     .testimonials .wrapper{
         grid-template-columns: repeat(1,1fr);
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+     .services-container{
+        grid-template-columns: repeat(1,1fr);
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left:50% ;
+        margin-right: 50%;
+    }
+    .service-box p{
+        font-size: 1.6rem;
     }
     .contact form{
         flex-direction: column;
